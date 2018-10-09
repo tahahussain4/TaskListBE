@@ -10,7 +10,10 @@ import dblayer.UserDao;
 public class AppConfig {
     @Bean
     public UserDao userDao() {
-        return new UserDao();
+        System.out.println("testing git");
+        
+    		return new UserDao();
+        
     }
     
     @Bean
